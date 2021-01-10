@@ -8,7 +8,7 @@ function cons(...arg) {
 	console.log(arg);
 }
 
-function maAjax() {
+function myAjax() {
 	let xhr;
 	if(XMLHttpRequest) {
 		xhr = new XMLHttpRequest();
