@@ -1,7 +1,7 @@
 console.log('hello world');
 
 function getNow() {
-	return Date.now();
+	return new Date().getTime();
 }
 
 function cons() {
