@@ -20,4 +20,9 @@ function myAjax(method, url, params) {
 		xhr.open(method, url);
 		xhr.send();
 	}
+
+	if(method.toLowerCase() === 'post') {
+		
+	}
 }
+
