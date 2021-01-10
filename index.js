@@ -14,5 +14,5 @@ function myAjax(method, url, params) {
 		xhr = new XMLHttpRequest();
 	}
 	if(!xhr) return;
-	xhr.open(method, url); //222
+	xhr.open(method, url); //444
 }
