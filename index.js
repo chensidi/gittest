@@ -4,6 +4,6 @@ function getNow() {
 	return new Date().getTime();
 }
 
-function cons() {
-	console.log(arguments);
+function cons(...arg) {
+	console.log(arg);
 }
