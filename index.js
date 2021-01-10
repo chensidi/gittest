@@ -13,7 +13,6 @@ function myAjax(method, url, params) {
 	if(XMLHttpRequest) {
 		xhr = new XMLHttpRequest();
 	}
-	if(xhr) {
-		xhr.open(method, url);
-	}
+	if(!xhr) return;
+	xhr.open(method, url);
 }
