@@ -9,5 +9,5 @@ function cons(...arg) {
 }
 
 function maAjax() {
-	let xhr = new XMLHttpRequest();
+	let xhr = XMLHttpRequest && new XMLHttpRequest();
 }
