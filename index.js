@@ -8,6 +8,8 @@ function cons(...arg) {
 	console.log(arg);
 }
 
+
+
 function maAjax() {
 	let xhr;
 	if(XMLHttpRequest) {
